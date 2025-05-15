@@ -1,0 +1,12 @@
+2,gat,inpt,1,0,-,-
+3,gat,inpt,2,0,-‚-
+4,fan,from,3,-,-,-
+5,fan,from,3,-,-,-
+6,gat,inpt,1,0,-,-
+7,gat,inpt,1,0,-,-
+8,gat,nand,1,2,2,4
+9,gat,or,2,2,5,6
+10,fan,from,9,-,-,-
+11,fan,from,9,-,-,-
+12,gat,and,0,2,8,10
+13,gat,nor,0,2,11,7
